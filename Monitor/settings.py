@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'googlecharts',
     'sanctuary',
     'assembly',
+    'transport',
     
     # 'djcelery_email',
 ]
@@ -95,7 +96,7 @@ WSGI_APPLICATION = 'Monitor.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'pzmonitor',
+        'NAME': 'transport_monitor',
         'USER': 'djangouser',
         'PASSWORD': 'password',
         'HOST': '127.0.0.1',
